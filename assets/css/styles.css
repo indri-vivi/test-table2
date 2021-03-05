@@ -1,0 +1,49 @@
+#information {
+    font-family: "calibri light";
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 100px;
+  }
+  
+  #information td, #information th {
+    padding: 12px 12px;
+    border-bottom: 2px solid #fffeff;
+    text-align: left;
+  }
+    
+  #information th {
+    border-top: 8px solid #afbafc;
+    background-color: #b9c8ff;
+    color: #0a2f99;
+  }
+  
+  #information td {
+    background-color: #e8edff;
+    color: #7f81a7;
+  }
+
+  @media screen  and (min-width : 1824px) {
+    #information th {
+      color: black;
+      background-color:pink;
+    }
+    }
+  @media screen  and (min-width : 1224px) {
+      
+    }
+  @media screen and (min-width : 768px) and (max-width : 1024px){
+    #information td {
+      color: black;
+      background-color:silver;
+    }
+    }
+  @media screen and (min-width : 320px) and (max-width : 480px) {
+    #information td {
+      color: black;
+      background-color:pink;
+    } 
+    } 
+      
+       
